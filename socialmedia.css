@@ -1,0 +1,108 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Main content layout */
+.main-container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sidebar .profile {
+    text-align: center;
+}
+
+.sidebar img {
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sidebar ul li {
+    padding: 8px;
+    background-color: #ddd;
+    margin: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Feed styling */
+.feed {
+    width: 75%;
+    padding: 0 20px;
+    margin:auto;
+    align-items: center;
+}
+.post img{
+    display: flex;
+    width: 60px;
+    height: 50px;
+    padding: 3px;
+    border-radius: 7px;
+    margin-right: 15px; 
+}
+
+.post {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    align-items: center;
+    /* 
+    /* display: flex;              /* Enables horizontal alignment */
+    /* align-items: center;        Centers items vertically */
+    /* background-color: #f9f9f9; */
+    /* padding: 15px; */
+    /* border: 1px solid #ddd; */
+    /* border-radius: 5px; */
+    /* margin-right: 10px; */ 
+}
+
+.post h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.post p {
+    font-size: 16px;
+    color: #666;
+}
+
